@@ -1,0 +1,20 @@
+name: League notifications
+
+# Every 10 minutes, asks the site to send any due push notifications
+# (match day, kick-off soon, full time, announcements). The site decides
+# what is due and never sends the same one twice.
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Send due notifications
+        env:
+          SECRET: ${{ secrets.PUSH_CRON_SECRET }}
+        run: |
+          curl -fsS --max-time 60 -H "Authorization: Bearer $SECRET" "https://chess-mangrove-sports.vercel.app/api/push?job=tick"
