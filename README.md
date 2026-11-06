@@ -4,11 +4,25 @@
 
 **A home for a team chess league: live matches, standings, predictions, fantasy, and training that learns from your own games.**
 
-### [▶ Open the live site](https://chess-mangrove-sports.vercel.app)
+### [▶ Open the live site](https://chess-mangrove-sports.vercel.app) &nbsp;·&nbsp; [📱 Get the Android app](https://github.com/Stravix86/chess-mangrove-showcase/releases/latest/download/ChessMangrove.apk)
 
 <img src="screenshots/desktop-home.png" alt="Chess Mangrove home page" width="900">
 
 </div>
+
+---
+
+## 📱 Android app
+
+**[Download ChessMangrove.apk](https://github.com/Stravix86/chess-mangrove-showcase/releases/latest/download/ChessMangrove.apk)** (under 1 MB) · [all versions](https://github.com/Stravix86/chess-mangrove-showcase/releases)
+
+1. Open the link on your Android phone or tablet and download the file.
+2. Open it. If your phone asks, allow your browser to install apps, then tap **Install**.
+3. Chess Mangrove appears on your home screen.
+
+- Works on **Android 5.0 and newer**, phones and tablets of any size, in portrait or landscape.
+- Opens full-screen with its own icon and splash screen, and runs on the phone's own Chrome engine. Phones without a compatible browser use a built-in web view instead.
+- **Updates itself:** the app always shows the latest site, so league news and new features arrive on their own. When a new version of the app itself is published, it shows an **Update** banner. You can also check any time from the account button → **Check for app updates**. Install the new file over the old one; your sign-in and progress stay.
 
 ---
 
